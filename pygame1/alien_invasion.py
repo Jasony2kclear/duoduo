@@ -1,13 +1,13 @@
 import sys
 import pygame
-from settings import Settings
+from setting import Setting
 
-filename = sys.path[0] + '/setting.py'
 bg_color = (230, 230, 230)
 def run_game():
-    pygame.init()
+#   pygame.init()
+    ai_setting = Setting()
 
-    screen = pygame.display.set_mode((1200, 800))
+    screen = pygame.display.set_mode((ai_setting.screen_width , 800))
     pygame.display.set_caption("Alien Invision")
 
     # start main procedure

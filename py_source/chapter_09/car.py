@@ -32,12 +32,3 @@ class Car():
     def increment_odometer(self, miles):
         """Add the given amount to the odometer reading."""
         self.odometer_reading += miles
-    def fill_gas_tank(self):
-        """然而电动汽车没有油箱"""
-        print("This car gas tank is full!")
-my_used_car = Car('subaru','outback',2013)
-print(my_used_car.get_descriptive_name())
-my_used_car.update_odometer(23500)
-my_used_car.read_odometer()
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()

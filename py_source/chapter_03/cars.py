@@ -11,5 +11,3 @@ print(sorted(cars, reverse=True))
 
 print("\nHere is the original list again:")
 print(cars)
-
-print(cars[-1])

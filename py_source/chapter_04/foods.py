@@ -9,10 +9,3 @@ print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
-
-friend1_foods = my_foods
-friend1_foods.append("first")
-my_foods.append("second")
-
-print(friend1_foods)
-print(my_foods)

@@ -1,6 +1,6 @@
 # Start out with some users that need to be verified,
 #  and an empty list to hold confirmed users.
-unconfirmed_users = ['alice', 'brian', 'candace', "end"]
+unconfirmed_users = ['alice', 'brian', 'candace']
 confirmed_users = []
 
 # Verify each user, until there are no more unconfirmed users.

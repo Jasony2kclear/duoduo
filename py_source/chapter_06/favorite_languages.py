@@ -1,6 +1,10 @@
-w="yfyhduh"
-r="gshsiwuwhe"
-v=str(365827368687262837)
-u=str(6376287665865638545375683658634865365743657654537535534745753457653753745374737574353765735757435764573587)
-squ="yuuuhdusuidus"
-print(w+r+v+u+squ)
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+
+for name, language in favorite_languages.items():
+    print(name.title() + "'s favorite language is " +
+        language.title() + ".")

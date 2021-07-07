@@ -15,7 +15,6 @@ while polling_active:
     repeat = input("Would you like to let another person respond? (yes/ no) ")
     if repeat == 'no':
         polling_active = False
-
         
 # Polling is complete. Show the results.
 print("\n--- Poll Results ---")

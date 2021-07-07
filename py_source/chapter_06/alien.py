@@ -1,18 +1,5 @@
 alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
 print("Original position: " + str(alien_0['x_position']))
-alien_1 = {'x1':'This is first item','x2':'This is second item'}
-if alien_1['x2']=='This is first item':
-    print("Let find the word: " + str(alien_1['x2']))
-else:
-    print("other")
-
-alien_1['x3']=100
-print(alien_1['x3'])
-print(alien_1)
-alien_1['x3']=200
-print(alien_1['x3'])
-del alien_1['x3']
-print(alien_1)
 
 # Move the alien to the right.
 # Figure out how far to move the alien based on its speed.

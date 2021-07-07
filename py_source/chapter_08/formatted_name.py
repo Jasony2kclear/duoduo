@@ -11,6 +11,3 @@ print(musician)
 
 musician = get_formatted_name('john', 'hooker', 'lee')
 print(musician)
-
-musician = get_formatted_name('Lian', 'duoduo', 'jinghua')
-print(musician)

@@ -1,7 +1,4 @@
-from os import sys
-realpath = sys.path[0] + '/'
-
-filename = realpath + 'alice.txt'
+filename = 'alice.txt'
 
 try:
     with open(filename) as f_obj:
@@ -14,4 +11,3 @@ else:
     words = contents.split()
     num_words = len(words)
     print("The file " + filename + " has about " + str(num_words) + " words.")
-    print(words[:50])

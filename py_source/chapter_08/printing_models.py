@@ -22,3 +22,14 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+
+photo1 = ['p_jason', 'p_jinghua', 'p_lianjun']
+photo2 = []
+
+while photo1:
+    item = photo1.pop()
+    print("\npop up item :", item)
+
+    photo2.append(item)
+print(photo2)

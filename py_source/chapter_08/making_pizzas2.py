@@ -1,5 +1,8 @@
-from py_source.chapter_08.pizza import make_pizza
-import pizza as p
+from pizza import make_pizza
+make_pizza(15,'Lian Jun')
 
-p.make_pizza(16, 'pepperoni')
-p.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+from pizza import *
+make_pizza(15,'Lian Jun')
+
+import pizza as p
+p.make_pizza(10, 'Jinghua')

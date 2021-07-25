@@ -1,8 +1,7 @@
 import json
 
 def get_stored_username():
-    """Get stored username if available."""
-    filename = 'username.json'
+    filename = r'C:\lj\DEVELOP\py\py_source\chapter_10\username.json'
     try:
         with open(filename) as f_obj:
             username = json.load(f_obj)

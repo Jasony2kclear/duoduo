@@ -1,4 +1,4 @@
-filename = 'alice.txt'
+filename = 'py_source\chapter_10\\alice.txt'
 
 try:
     with open(filename) as f_obj:
@@ -9,5 +9,6 @@ except FileNotFoundError as e:
 else:
     # Count the approximate number of words in the file.
     words = contents.split()
+    print(words)
     num_words = len(words)
     print("The file " + filename + " has about " + str(num_words) + " words.")

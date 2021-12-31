@@ -1,6 +1,6 @@
 import requests
-import pygal
-from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
+#import pygal2_update
+#from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
 
 # Make an API call, and store the response.
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
@@ -9,6 +9,7 @@ print("Status code:", r.status_code)
 
 # Store API response in a variable.
 response_dict = r.json()
+print(response_dict)
 print("Total repositories:", response_dict['total_count'])
 
 # Explore information about the repositories.

@@ -1,5 +1,7 @@
 import tkinter
 from tkinter import *
+from PIL import Image, ImageTk
+
 
 a = 2
 
@@ -93,12 +95,14 @@ def Option_box1():
             global score
             score += 1
             import tkinter
-            img_gif = tkinter.PhotoImage(file='right.gif')
-            label_img = tkinter.Label(top, image=img_gif)
-            label_img.place(x=100, y=200)
-            #            label_img.pack(side="left")
-            top.mainloop()
-            exit()
+            #img_gif = tkinter.PhotoImage(file='right.gif')
+            img_gif=ImageTk.PhotoImage(file="duoduo/right.jpg")
+            #label_img = tkinter.Label(top, image=img_gif)
+            canvas.create_image(200, 200, image=img_gif, anchor="center")
+            #label_img.place(x=100, y=200)
+            #label_img.pack(side="left")
+            #top.mainloop()
+            #exit()
         else:
             import tkinter
             img_gif = tkinter.PhotoImage(file='wrong.gif')

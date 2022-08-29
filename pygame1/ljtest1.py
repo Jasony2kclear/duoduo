@@ -1,5 +1,10 @@
-import math
-print(math.sin(3))
-import winsound
-winsound.Beep(1000,500)
-winsound.Beep(10000,10000)
+N = input()
+for i in range(3):
+    Cnt = 0
+    for j in range(3):
+        if N[i]==N[j]:
+            Cnt+=1
+    if Cnt == 1 :
+        print(N[i])
+        exit(0)
+print("-1")
